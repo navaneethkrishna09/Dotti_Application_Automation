@@ -24,7 +24,7 @@ import io.cucumber.java.it.E;
 
 public class DottiItemSelectPage extends BasePage {
 	public static WebDriver driver;
-	private String propertyPath = "D:\\Projects\\Eclipse_demo\\seleniumFramework\\sfTest\\src\\main\\resources\\DottiSite.json";
+	private String propertyPath = "/DottiSite.json";
 	private String propertyPath1 = "/DottiPageResource.properties";
 	String name;
 

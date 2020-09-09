@@ -9,12 +9,14 @@ import com.seleniumframework.customexceptions.ResourceCustomException;
 
 import org.apache.log4j.Logger;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Properties;
 
 /**
@@ -77,29 +79,27 @@ public class ResourceRead {
         return properties;
     }
     
-    public String getResourceValueFromJSON(String propertyFileName,String jsonObject,String jsonSubObject)
+    public String getResourceValueFromJSON(String propertyFileName,String jsonObject,String jsonSubObject) throws FileNotFoundException
     {
     	log.info("Entered the getResourceValueFromJSON in ResourceRead");
     	JsonParser parser = new JsonParser();
     	JsonObject obj = new JsonObject();
-    	FileReader reader;
-		try {
-			reader = new FileReader(propertyFileName);
-			Object object = parser.parse(reader);
-			JsonArray jsonlist = (JsonArray)object;
-			System.out.println("&&&&&&&&&&&&&&&&&"+jsonlist);
-			//jsonlist.forEach(element -> jsonGet((JsonObject)element,jsonObject,jsonSubObject));
-			for(int i=0;i!=jsonlist.size()-1;i++)
-			{
-				JsonElement element = jsonlist.get(i);
-				int flag = jsonGet((JsonObject)element,jsonObject,jsonSubObject);
-				if(flag == 1)
-					break;
-				
-			}
+    	InputStream inputstream;
+    	BufferedReader reader;
+		//reader = new FileReader(propertyFileName);
+		inputstream = getClass().getResourceAsStream(propertyFileName);
+		reader = new BufferedReader(new InputStreamReader(inputstream));
+		Object object = parser.parse(reader);
+		JsonArray jsonlist = (JsonArray)object;
+		System.out.println("&&&&&&&&&&&&&&&&&"+jsonlist);
+		//jsonlist.forEach(element -> jsonGet((JsonObject)element,jsonObject,jsonSubObject));
+		for(int i=0;i!=jsonlist.size()-1;i++)
+		{
+			JsonElement element = jsonlist.get(i);
+			int flag = jsonGet((JsonObject)element,jsonObject,jsonSubObject);
+			if(flag == 1)
+				break;
 			
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} 	
 		return value;
     	

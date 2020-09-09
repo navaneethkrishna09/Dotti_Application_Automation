@@ -21468,3 +21468,427 @@
 2020-09-09 14:30:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
 2020-09-09 14:30:51 INFO  CustomExtendReport:143 - Exited the zipReport method in CustomReportClass
 2020-09-09 14:30:51 INFO  TestRunSeleniumFramework:60 - Exited flushExtendReport method in TestRunSeleniumFrameWork class
+2020-09-09 15:55:36 INFO  TestRunSeleniumFramework:50 - Entered writeExtendReport method in TestRunSeleniumFrameWork class
+2020-09-09 15:55:36 INFO  FrameworkLogger:27 - Entered the createLogReport method in TestRunSeleniumFrameWork
+2020-09-09 15:55:36 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:36 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:36 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:36 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:36 INFO  FrameworkLogger:76 - Entered the createChildFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:55:36 INFO  FrameworkLogger:53 - Entered the createSubFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:55:36 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:36 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:36 INFO  FrameworkLogger:72 - Exited the createSubFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:55:36 INFO  FrameworkLogger:85 - Exited the createChildFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:55:36 INFO  FrameworkLogger:41 - Exited the createLogReport method in TestRunSeleniumFrameWork
+2020-09-09 15:55:36 INFO  TestRunSeleniumFramework:52 - Exited writeExtendReport method in TestRunSeleniumFrameWork class
+2020-09-09 15:55:37 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:55:37 INFO  SFWebDriver:34 - Entered the SFWebDriver method
+2020-09-09 15:55:37 INFO  SFWebDriver:109 - Entered the cleanUp method
+2020-09-09 15:55:37 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  SFWebDriver:129 - Exited the cleanUp method
+2020-09-09 15:55:37 INFO  SFWebdriverFactory:87 - Attempting to get ENV_AUTOMATION_BROWSER
+2020-09-09 15:55:37 INFO  SFWebdriverFactory:90 - Attempting to get APP_SETTING_BROWSER
+2020-09-09 15:55:37 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  SFWebdriverFactory:39 - Entered the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:55:37 INFO  BrowserInstanceFactory:35 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:55:37 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:37 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:37 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:37 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:37 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:37 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:40 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:40 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:40 INFO  BrowserInstanceFactory:68 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:55:40 INFO  SFWebdriverFactory:57 - Exited the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:55:43 INFO  SFWebDriver:42 - Exited the SFWebDriver method
+2020-09-09 15:55:43 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:55:43 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:55:43 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:55:43 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:55:43 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:55:43 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:55:43 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:55:43 INFO  BasePage:81 - Entered the LaunchURL method in BasePage
+2020-09-09 15:55:43 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:43 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:47 INFO  BasePage:87 - Exited the LaunchURL method in BasePage
+2020-09-09 15:55:47 INFO  BasePage:56 - Entered the getPageTitle method in BasePage
+2020-09-09 15:55:47 INFO  BasePage:60 - Exited the getPageTitle method in BasePage
+2020-09-09 15:55:47 INFO  ResourceRead:82 - Entered the getResourceValueFromJSON in ResourceRead
+2020-09-09 15:55:47 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:55:47 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:55:47 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:50 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:55:50 INFO  SFWebDriver:34 - Entered the SFWebDriver method
+2020-09-09 15:55:50 INFO  SFWebDriver:109 - Entered the cleanUp method
+2020-09-09 15:55:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  SFWebDriver:129 - Exited the cleanUp method
+2020-09-09 15:55:50 INFO  SFWebdriverFactory:87 - Attempting to get ENV_AUTOMATION_BROWSER
+2020-09-09 15:55:50 INFO  SFWebdriverFactory:90 - Attempting to get APP_SETTING_BROWSER
+2020-09-09 15:55:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  SFWebdriverFactory:39 - Entered the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:55:50 INFO  BrowserInstanceFactory:35 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:55:50 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:50 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:50 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:55:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:54 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:54 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:54 INFO  BrowserInstanceFactory:68 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:55:54 INFO  SFWebdriverFactory:57 - Exited the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:55:56 INFO  SFWebDriver:42 - Exited the SFWebDriver method
+2020-09-09 15:55:56 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:55:56 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:55:56 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:55:56 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:55:56 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:55:56 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:55:56 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:55:56 INFO  BasePage:81 - Entered the LaunchURL method in BasePage
+2020-09-09 15:55:56 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:55:56 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:56:01 INFO  BasePage:87 - Exited the LaunchURL method in BasePage
+2020-09-09 15:56:01 INFO  BasePage:56 - Entered the getPageTitle method in BasePage
+2020-09-09 15:56:01 INFO  BasePage:60 - Exited the getPageTitle method in BasePage
+2020-09-09 15:56:01 INFO  ResourceRead:82 - Entered the getResourceValueFromJSON in ResourceRead
+2020-09-09 15:56:01 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:56:01 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:56:01 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:31 INFO  TestRunSeleniumFramework:50 - Entered writeExtendReport method in TestRunSeleniumFrameWork class
+2020-09-09 15:57:31 INFO  FrameworkLogger:27 - Entered the createLogReport method in TestRunSeleniumFrameWork
+2020-09-09 15:57:31 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:31 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:31 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:31 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:31 INFO  FrameworkLogger:76 - Entered the createChildFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:57:31 INFO  FrameworkLogger:53 - Entered the createSubFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:57:31 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:31 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:31 INFO  FrameworkLogger:72 - Exited the createSubFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:57:31 INFO  FrameworkLogger:85 - Exited the createChildFolders method in TestRunSeleniumFrameWork
+2020-09-09 15:57:31 INFO  FrameworkLogger:41 - Exited the createLogReport method in TestRunSeleniumFrameWork
+2020-09-09 15:57:31 INFO  TestRunSeleniumFramework:52 - Exited writeExtendReport method in TestRunSeleniumFrameWork class
+2020-09-09 15:57:32 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:57:32 INFO  SFWebDriver:34 - Entered the SFWebDriver method
+2020-09-09 15:57:32 INFO  SFWebDriver:109 - Entered the cleanUp method
+2020-09-09 15:57:32 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  SFWebDriver:129 - Exited the cleanUp method
+2020-09-09 15:57:32 INFO  SFWebdriverFactory:87 - Attempting to get ENV_AUTOMATION_BROWSER
+2020-09-09 15:57:32 INFO  SFWebdriverFactory:90 - Attempting to get APP_SETTING_BROWSER
+2020-09-09 15:57:32 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  SFWebdriverFactory:39 - Entered the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:57:32 INFO  BrowserInstanceFactory:35 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:57:32 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:32 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:32 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:32 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:32 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:32 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:36 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:36 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:36 INFO  BrowserInstanceFactory:68 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:57:36 INFO  SFWebdriverFactory:57 - Exited the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:57:38 INFO  SFWebDriver:42 - Exited the SFWebDriver method
+2020-09-09 15:57:38 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:57:38 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:57:38 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:57:38 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:57:38 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:57:38 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:57:38 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:57:38 INFO  BasePage:81 - Entered the LaunchURL method in BasePage
+2020-09-09 15:57:38 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:38 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:42 INFO  BasePage:87 - Exited the LaunchURL method in BasePage
+2020-09-09 15:57:42 INFO  BasePage:56 - Entered the getPageTitle method in BasePage
+2020-09-09 15:57:42 INFO  BasePage:60 - Exited the getPageTitle method in BasePage
+2020-09-09 15:57:42 INFO  ResourceRead:82 - Entered the getResourceValueFromJSON in ResourceRead
+2020-09-09 15:57:42 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:57:42 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:57:42 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:44 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:57:44 INFO  SFWebDriver:34 - Entered the SFWebDriver method
+2020-09-09 15:57:44 INFO  SFWebDriver:109 - Entered the cleanUp method
+2020-09-09 15:57:44 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:44 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:44 INFO  SFWebDriver:129 - Exited the cleanUp method
+2020-09-09 15:57:44 INFO  SFWebdriverFactory:87 - Attempting to get ENV_AUTOMATION_BROWSER
+2020-09-09 15:57:44 INFO  SFWebdriverFactory:90 - Attempting to get APP_SETTING_BROWSER
+2020-09-09 15:57:44 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  SFWebdriverFactory:39 - Entered the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:57:45 INFO  BrowserInstanceFactory:35 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:57:45 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:45 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:45 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:45 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 15:57:45 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:45 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:48 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:48 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:48 INFO  BrowserInstanceFactory:68 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 15:57:48 INFO  SFWebdriverFactory:57 - Exited the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 15:57:50 INFO  SFWebDriver:42 - Exited the SFWebDriver method
+2020-09-09 15:57:50 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:57:50 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:57:50 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:57:50 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 15:57:50 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 15:57:50 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 15:57:50 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 15:57:50 INFO  BasePage:81 - Entered the LaunchURL method in BasePage
+2020-09-09 15:57:50 INFO  ResourceRead:34 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:50 INFO  ResourceRead:43 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 15:57:53 INFO  BasePage:87 - Exited the LaunchURL method in BasePage
+2020-09-09 15:57:53 INFO  BasePage:56 - Entered the getPageTitle method in BasePage
+2020-09-09 15:57:53 INFO  BasePage:60 - Exited the getPageTitle method in BasePage
+2020-09-09 15:57:53 INFO  ResourceRead:82 - Entered the getResourceValueFromJSON in ResourceRead
+2020-09-09 15:57:53 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:57:53 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 15:57:53 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:03 INFO  TestRunSeleniumFramework:50 - Entered writeExtendReport method in TestRunSeleniumFrameWork class
+2020-09-09 16:23:03 INFO  FrameworkLogger:27 - Entered the createLogReport method in TestRunSeleniumFrameWork
+2020-09-09 16:23:03 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:03 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:03 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:03 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:03 INFO  FrameworkLogger:76 - Entered the createChildFolders method in TestRunSeleniumFrameWork
+2020-09-09 16:23:03 INFO  FrameworkLogger:53 - Entered the createSubFolders method in TestRunSeleniumFrameWork
+2020-09-09 16:23:03 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:03 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:03 INFO  FrameworkLogger:72 - Exited the createSubFolders method in TestRunSeleniumFrameWork
+2020-09-09 16:23:03 INFO  FrameworkLogger:85 - Exited the createChildFolders method in TestRunSeleniumFrameWork
+2020-09-09 16:23:03 INFO  FrameworkLogger:41 - Exited the createLogReport method in TestRunSeleniumFrameWork
+2020-09-09 16:23:03 INFO  TestRunSeleniumFramework:52 - Exited writeExtendReport method in TestRunSeleniumFrameWork class
+2020-09-09 16:23:04 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 16:23:04 INFO  SFWebDriver:34 - Entered the SFWebDriver method
+2020-09-09 16:23:04 INFO  SFWebDriver:109 - Entered the cleanUp method
+2020-09-09 16:23:04 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  SFWebDriver:129 - Exited the cleanUp method
+2020-09-09 16:23:04 INFO  SFWebdriverFactory:87 - Attempting to get ENV_AUTOMATION_BROWSER
+2020-09-09 16:23:04 INFO  SFWebdriverFactory:90 - Attempting to get APP_SETTING_BROWSER
+2020-09-09 16:23:04 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  SFWebdriverFactory:39 - Entered the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 16:23:04 INFO  BrowserInstanceFactory:35 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 16:23:04 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:04 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:04 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:04 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:04 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:04 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:07 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:07 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:07 INFO  BrowserInstanceFactory:68 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2020-09-09 16:23:07 INFO  SFWebdriverFactory:57 - Exited the getSFWebDriverInstance method in SFWebdriverFactory
+2020-09-09 16:23:10 INFO  SFWebDriver:42 - Exited the SFWebDriver method
+2020-09-09 16:23:10 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 16:23:10 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 16:23:10 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 16:23:10 INFO  SFWebDriver:64 - Entered the getSFWebDriverInstance method
+2020-09-09 16:23:10 INFO  SFWebDriver:68 - Exited the getSFWebDriverInstance method
+2020-09-09 16:23:10 INFO  SFWebDriver:77 - Entered the getSeleniumWebDriver method
+2020-09-09 16:23:10 INFO  SFWebDriver:81 - Exited the getSeleniumWebDriver method
+2020-09-09 16:23:10 INFO  BasePage:81 - Entered the LaunchURL method in BasePage
+2020-09-09 16:23:10 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:10 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:16 INFO  BasePage:87 - Exited the LaunchURL method in BasePage
+2020-09-09 16:23:16 INFO  BasePage:56 - Entered the getPageTitle method in BasePage
+2020-09-09 16:23:16 INFO  BasePage:60 - Exited the getPageTitle method in BasePage
+2020-09-09 16:23:16 INFO  ResourceRead:84 - Entered the getResourceValueFromJSON in ResourceRead
+2020-09-09 16:23:16 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BasePage:803 - Entered the getWebElementPropertiesByXpath method in BasePage
+2020-09-09 16:23:16 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BasePage:756 - Entered the getWebElementProperties method in BasePage
+2020-09-09 16:23:16 INFO  BaseTestFixture:37 - Entered the waitForElement method in BaseTestFixture
+2020-09-09 16:23:16 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:16 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:16 INFO  BaseTestFixture:50 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:61 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:41 - Element found, value of isElementDisplayedInPage is = true
+2020-09-09 16:23:16 INFO  BaseTestFixture:45 - Exited the waitForElement method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BasePage:758 - Exited the getWebElementProperties method in BasePage
+2020-09-09 16:23:16 INFO  BasePage:805 - Exited the getWebElementPropertiesByXpath method in BasePage
+2020-09-09 16:23:16 INFO  BaseTestFixture:66 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:80 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BasePage:565 - Entered the performFocusOnElementActionByXpath method in BasePage
+2020-09-09 16:23:16 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BasePage:803 - Entered the getWebElementPropertiesByXpath method in BasePage
+2020-09-09 16:23:16 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BasePage:756 - Entered the getWebElementProperties method in BasePage
+2020-09-09 16:23:16 INFO  BaseTestFixture:37 - Entered the waitForElement method in BaseTestFixture
+2020-09-09 16:23:16 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:16 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:16 INFO  BaseTestFixture:50 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:61 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:16 INFO  BaseTestFixture:41 - Element found, value of isElementDisplayedInPage is = true
+2020-09-09 16:23:17 INFO  BaseTestFixture:45 - Exited the waitForElement method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:758 - Exited the getWebElementProperties method in BasePage
+2020-09-09 16:23:17 INFO  BasePage:805 - Exited the getWebElementPropertiesByXpath method in BasePage
+2020-09-09 16:23:17 INFO  BasePage:534 - Entered the performFocusOnElementAction method in BasePage
+2020-09-09 16:23:17 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  BaseTestFixture:66 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:80 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:515 - Entered the performMoveToElementAction method in BasePage
+2020-09-09 16:23:17 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  BaseTestFixture:66 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:80 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:519 - Entered the performMoveToElementAction method in BasePage
+2020-09-09 16:23:17 INFO  BasePage:538 - Exited the performFocusOnElementAction method in BasePage
+2020-09-09 16:23:17 INFO  BasePage:570 - Exited the performFocusOnElementActionByXpath method in BasePage
+2020-09-09 16:23:17 INFO  ResourceRead:84 - Entered the getResourceValueFromJSON in ResourceRead
+2020-09-09 16:23:17 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:803 - Entered the getWebElementPropertiesByXpath method in BasePage
+2020-09-09 16:23:17 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:756 - Entered the getWebElementProperties method in BasePage
+2020-09-09 16:23:17 INFO  BaseTestFixture:37 - Entered the waitForElement method in BaseTestFixture
+2020-09-09 16:23:17 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  BaseTestFixture:50 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:61 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:41 - Element found, value of isElementDisplayedInPage is = true
+2020-09-09 16:23:17 INFO  BaseTestFixture:45 - Exited the waitForElement method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:758 - Exited the getWebElementProperties method in BasePage
+2020-09-09 16:23:17 INFO  BasePage:805 - Exited the getWebElementPropertiesByXpath method in BasePage
+2020-09-09 16:23:17 INFO  BaseTestFixture:66 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:80 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:120 - Entered the clickOnButtonByXpath method in BasePage
+2020-09-09 16:23:17 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BasePage:98 - Entered the clickOnButton method in BasePage
+2020-09-09 16:23:17 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:37 - Entered the waitForElement method in BaseTestFixture
+2020-09-09 16:23:17 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:17 INFO  BaseTestFixture:50 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:61 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:17 INFO  BaseTestFixture:41 - Element found, value of isElementDisplayedInPage is = true
+2020-09-09 16:23:17 INFO  BaseTestFixture:45 - Exited the waitForElement method in BaseTestFixture
+2020-09-09 16:23:21 INFO  BasePage:109 - Exited the clickOnButton method in BasePage
+2020-09-09 16:23:21 INFO  BasePage:124 - Exited the clickOnButtonByXpath method in BasePage
+2020-09-09 16:23:21 INFO  ResourceRead:69 - Entered the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:21 INFO  ResourceRead:78 - Exited the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:21 INFO  BasePage:56 - Entered the getPageTitle method in BasePage
+2020-09-09 16:23:21 INFO  BasePage:60 - Exited the getPageTitle method in BasePage
+2020-09-09 16:23:21 INFO  ResourceRead:69 - Entered the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:21 INFO  ResourceRead:78 - Exited the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:21 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:21 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:21 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:21 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:21 INFO  BasePage:815 - Entered the getWebElementsPropertiesByXpath method in BasePage
+2020-09-09 16:23:21 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:21 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:21 INFO  BasePage:775 - Entered the getWebElementsProperties method in BasePage
+2020-09-09 16:23:21 INFO  BaseTestFixture:37 - Entered the waitForElement method in BaseTestFixture
+2020-09-09 16:23:21 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:21 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:21 INFO  BaseTestFixture:50 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BaseTestFixture:61 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BaseTestFixture:41 - Element found, value of isElementDisplayedInPage is = true
+2020-09-09 16:23:22 INFO  BaseTestFixture:45 - Exited the waitForElement method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BasePage:777 - Exited the getWebElementsProperties method in BasePage
+2020-09-09 16:23:22 INFO  BasePage:817 - Exited the getWebElementsPropertiesByXpath method in BasePage
+2020-09-09 16:23:22 INFO  BasePage:906 - Entered the scrollToViewWebElement method in BasePage
+2020-09-09 16:23:22 INFO  BasePage:908 - Exited the scrollToViewWebElement method in BasePage
+2020-09-09 16:23:22 INFO  ResourceRead:69 - Entered the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:78 - Exited the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:69 - Entered the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:78 - Exited the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:69 - Entered the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:78 - Exited the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:69 - Entered the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:78 - Exited the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:69 - Entered the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:78 - Exited the getResourceValueFromProperties in ResourceRead
+2020-09-09 16:23:22 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BaseTestFixture:97 - Entered the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BaseTestFixture:103 - Exited the isConstantValuePresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BasePage:815 - Entered the getWebElementsPropertiesByXpath method in BasePage
+2020-09-09 16:23:22 INFO  BaseTestFixture:114 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BaseTestFixture:121 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2020-09-09 16:23:22 INFO  BasePage:775 - Entered the getWebElementsProperties method in BasePage
+2020-09-09 16:23:22 INFO  BaseTestFixture:37 - Entered the waitForElement method in BaseTestFixture
+2020-09-09 16:23:22 INFO  ResourceRead:36 - Entered the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:22 INFO  ResourceRead:45 - Exited the getResourceValueFromXML in ResourceRead
+2020-09-09 16:23:22 INFO  BaseTestFixture:50 - Entered the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:33 INFO  BaseTestFixture:61 - Exited the isElementPresent method in BaseTestFixture
+2020-09-09 16:23:33 INFO  BaseTestFixture:45 - Exited the waitForElement method in BaseTestFixture
+2020-09-09 16:23:33 INFO  BasePage:777 - Exited the getWebElementsProperties method in BasePage
