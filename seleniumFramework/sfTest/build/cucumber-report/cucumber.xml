@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="Test Suite" skipped="0" tests="3" time="163.757">
+
+<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="24.196">
+            
+    <failure message="Invalid Login Attempt" type="com.seleniumframework.customexceptions.ApplicationCustomException">
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+Then User clicks on sign in menu option.....................................passed
+And Verifies the sign in page...............................................passed
+Then User enters invalid "ggg@gmail.com" and "ggggggg"......................passed
+And Clicks on Sign in button................................................passed
+Then Check if the error message is displayed................................failed
+
+StackTrace:
+com.seleniumframework.customexceptions.ApplicationCustomException: Invalid Login Attempt
+	at uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:122)
+	at steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:40)
+	at ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)
+]]>
+                
+    </failure>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="73.236">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Shoes & Accessories" and choose the "Gift Cards".passed
+And Verify the product list page "Gift Cards"...............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="65.854">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "New in" and choose the "Shoes & Accessories".passed
+And Verify the product list page "Shoes & Accessories"......................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+</testsuite>

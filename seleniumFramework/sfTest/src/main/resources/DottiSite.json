@@ -1,0 +1,94 @@
+[
+   {
+      "new in":{
+         "headerpath":"//*[@id='categoryLink_348051']",
+         "clothing":"//*[@id='subcategoryLink_348051_348067']",
+         "shoes & accessories":"//*[@id='subcategoryLink_348051_348068']",
+         "best sellers":"//*[@id='subcategoryLink_348051_348069']",
+         "insta edit":"//*[@id='subcategoryLink_348051_348072']",
+         "fresh new hues":"//*[@id='subcategoryLink_348051_409551']",
+         "linen edit":"//*[@id='subcategoryLink_348051_360556']"
+      }
+   },
+   {
+      "offers":{
+         "headerpath":"//*[@id='categoryLink_348053']",
+         "40% Off basics":"//*[@id='subcategoryLink_348053_406551']",
+         "2 for $70 jeans":"//*[@id='subcategoryLink_348053_383584']",
+         "2 for $30 basics":"//*[@id='subcategoryLink_348053_402552']"
+      }
+   },
+   {
+      "tops":{
+         "headerpath":"//*[@id='categoryLink_348055']",
+         "knitwear & cardigans":"//*[@id='subcategoryLink_348055_348084']",
+         "casual tops":"//*[@id='subcategoryLink_348055_348080']",
+         "basics":"//*[@id='subcategoryLink_348055_348083']",
+         "shirts & blouses":"//*[@id='subcategoryLink_348055_348082']"
+      }
+   },
+   {
+      "dresses":{
+         "headerpath":"//*[@id='categoryLink_348057']",
+         "casual":"//*[@id='subcategoryLink_348057_348085']",
+         "midi & maxi":"//*[@id='subcategoryLink_348057_348087']",
+         "party":"//*[@id='subcategoryLink_348057_348086']",
+         "playsuits & jumpsuits":"//*[@id='subcategoryLink_348057_348088']"
+      }
+   },
+   {
+      "jackets":{
+         "headerpath":"//*[@id='categoryLink_348059']",
+         "jackets & coats":"//*[@id='subcategoryLink_348059_348091']"
+      }
+   },
+   {
+      "bottoms":{
+         "headerpath":"//*[@id='categoryLink_348061']",
+         "jeans":"//*[@id='subcategoryLink_348061_348095']",
+         "pants":"//*[@id='subcategoryLink_348061_348101']",
+         "skirts & shorts":"//*[@id='subcategoryLink_348061_348105']"
+      }
+   },
+   {
+      "shoes & accessories":{
+         "headerpath":"//*[@id='categoryLink_348063']",
+         "accessories":"//*[@id='subcategoryLink_348063_348113']",
+         "belts & bags":"//*[@id='subsubcategoryLink_348063_348113_348115']",
+         "hats & hair accessories":"//*[@id='subsubcategoryLink_348063_348113_348118']",
+         "socks & tights":"//*[@id='subsubcategoryLink_348063_348113_348117']",
+         "shoes":"//*[@id='subcategoryLink_348063_348112']",
+         "gift cards":"//*[@id='subcategoryLink_348063_349551']"
+      }
+   },
+   {
+      "sale":{
+         "headerpath":"//*[@id='categoryLink_348065']",
+         "shop by product":"//*[@id='subcategoryLink_348065_351558']",
+         "knitwear & jackets":"//*[@id='subsubcategoryLink_348065_351558_348126']",
+         "tops":"//*[@id='subsubcategoryLink_348065_351558_348124']",
+         "shoes & accessories":"//*[@id='subsubcategoryLink_348065_351558_348131']",
+         "basics":"//*[@id='subsubcategoryLink_348065_351558_367672']",
+         "shop by price":"//*[@id='subcategoryLink_348065_351557']",
+         "$20 & under":"//*[@id='subsubcategoryLink_348065_351557_375634']",
+         "$30 & under":"//*[@id='subsubcategoryLink_348065_351557_348135']",
+         "shop by size":"//*[contains(text(),'Shop By Size')]",
+         "size 6":"//*[contains(text(),'Size 6')]",
+         "size 8":"//*[contains(text(),'Size 8')]",
+         "size 10":"//*[contains(text(),'Size 10')]",
+         "size 12":"//*[contains(text(),'Size 12')]",
+         "size 14":"//*[contains(text(),'Size 14')]",
+         "size 16":"//*[contains(text(),'Size 16')]"
+      }
+   },
+   {
+      "lookbooks":{
+         "headerpath":"//*[contains(text(),'Lookbooks')]",
+         "soft hues":"//*[contains(text(),'Soft Hues')]",
+         "trending florals":"//*[contains(text(),'Trending Florals')]",
+         "new neutrals":"//*[contains(text(),'New Neutrals')]"
+      }
+   },
+   
+   
+]

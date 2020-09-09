@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="602c415a-65b1-4ca9-a69c-3dadd68eef86" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Softwares/Programming Setup/Apache Maven/apache-maven-3.6.2-bin/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\Softwares\Programming Setup\Apache Maven\apache-maven-3.6.2-bin\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UD4FwfoJ66lth2qYc3eKAIVi6T" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/sfCore/src/main/java/com/seleniumframework/customexceptions" />
+    <property name="last_opened_file_path" value="C:/Projects/Jars/courgette-jvm-1.4.0.jar!/" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="applicationcustomexceptions" />
+      <recent name="com.seleniumframework.customexceptions.drivercustomexceptions" />
+      <recent name="com.seleniumframework.customexceptions" />
+      <recent name="enumerators" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\Intelij\seleniumFramework\sfTest\src\main\resources" />
+      <recent name="C:\workspace\Intelij\seleniumFramework\sfTest\src\main\features" />
+      <recent name="C:\workspace\Intelij\seleniumFramework\sfTest\src\main\resources\sourceImageFile" />
+      <recent name="C:\workspace\Intelij\seleniumFramework\sfCore\browserDriver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.clean install">
+    <configuration name="BaseTestFixture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seleniumframework.base.BaseTestFixture" />
+      <module name="sfCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumframework.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutProductPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uipages.CheckoutProductPage" />
+      <module name="sfTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uipages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageComparisonPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uipages.ImageComparisonPage" />
+      <module name="sfTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uipages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentEmailReport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seleniumframework.emailreport.SentEmailReport" />
+      <module name="sfCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumframework.emailreport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunSeleniumFramework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunSeleniumFramework" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean install" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunSeleniumFramework" />
+        <item itemvalue="Application.CheckoutProductPage" />
+        <item itemvalue="Application.SentEmailReport" />
+        <item itemvalue="Application.BaseTestFixture" />
+        <item itemvalue="Application.ImageComparisonPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\825779\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="602c415a-65b1-4ca9-a69c-3dadd68eef86" name="Default Changelist" comment="" />
+      <created>1574877732400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574877732400</updated>
+      <workItem from="1574877736143" duration="868000" />
+      <workItem from="1574906073234" duration="1752000" />
+      <workItem from="1574907853171" duration="20908000" />
+      <workItem from="1574998149815" duration="44311000" />
+      <workItem from="1575290732831" duration="1080000" />
+      <workItem from="1575307167413" duration="1779000" />
+      <workItem from="1575346582622" duration="29479000" />
+      <workItem from="1575386649821" duration="4854000" />
+      <workItem from="1575435222669" duration="11889000" />
+      <workItem from="1575521148406" duration="5966000" />
+      <workItem from="1575604831187" duration="11862000" />
+      <workItem from="1575695709325" duration="20350000" />
+      <workItem from="1575865477170" duration="1395000" />
+      <workItem from="1575952116972" duration="19005000" />
+      <workItem from="1576036646205" duration="16260000" />
+      <workItem from="1576123245802" duration="10757000" />
+      <workItem from="1576210897938" duration="57355000" />
+      <workItem from="1576731977956" duration="66569000" />
+      <workItem from="1577329092436" duration="41208000" />
+      <workItem from="1577450240885" duration="3851000" />
+      <workItem from="1577514997418" duration="70721000" />
+      <workItem from="1578376411909" duration="770000" />
+      <workItem from="1578545739072" duration="31262000" />
+      <workItem from="1578580997691" duration="68637000" />
+      <workItem from="1579494676932" duration="16441000" />
+      <workItem from="1579580342802" duration="12890000" />
+      <workItem from="1579610893986" duration="1190000" />
+      <workItem from="1579665475991" duration="16733000" />
+      <workItem from="1579754756836" duration="19900000" />
+      <workItem from="1579839117199" duration="24052000" />
+      <workItem from="1580022685662" duration="38222000" />
+      <workItem from="1580269595513" duration="21806000" />
+      <workItem from="1580352655166" duration="9413000" />
+      <workItem from="1580438219459" duration="16564000" />
+      <workItem from="1580713063432" duration="8572000" />
+      <workItem from="1580789140347" duration="7799000" />
+      <workItem from="1580872891072" duration="7701000" />
+      <workItem from="1580957888926" duration="5821000" />
+      <workItem from="1580964416514" duration="15277000" />
+      <workItem from="1581304270802" duration="18398000" />
+      <workItem from="1581395362360" duration="10702000" />
+      <workItem from="1581648755999" duration="35303000" />
+      <workItem from="1581786111654" duration="14829000" />
+      <workItem from="1581933307007" duration="45834000" />
+      <workItem from="1582177051908" duration="2811000" />
+      <workItem from="1582514544445" duration="5772000" />
+      <workItem from="1582598133007" duration="11232000" />
+      <workItem from="1583381918774" duration="16495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/sfTest/src/main/java/uipages/CheckoutProductPage.java</url>
+          <line>572</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/sfTest/src/main/java/uipages/CheckoutProductPage.java</url>
+          <line>616</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/sfTest/src/main/java/uipages/CheckoutProductPage.java</url>
+          <line>506</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/sfTest/src/main/java/uipages/CheckoutProductPage.java</url>
+          <line>478</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sfTest/src/main/java/uipages/CheckoutProductPage.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sfCore/src/main/java/com/seleniumframework/driver/SFWebDriver.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="getPageTitle(seleniumWebDriver)" />
+        <watch expression="getCurrentURL(seleniumWebDriver)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

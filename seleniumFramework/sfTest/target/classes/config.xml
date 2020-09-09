@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <!--project Name-->
+    <entry key="ProjectName">seleniumFrameWork</entry>
+
+    <!--Do Not make changes below this-->
+    <entry key="WebDriverTimeOutInSeconds">50</entry>
+    <entry key="ElementFindTimeOutInSeconds">10</entry>
+    <entry key="Retry_Count">0</entry>
+    <entry key="DBCommandTimeoutInSeconds">100</entry>
+    <entry key="SPCommandTimeoutInSeconds">600</entry>
+    <entry key="TakeScreenShotDuringEntryExit">false</entry>
+
+    <!--Browser Configuration-->
+    <!--Chrome Browser-->
+    <entry key="Browser">Chrome</entry>
+    <!--FireFox Browser-->
+    <!--<entry key="Browser">FireFox</entry>-->
+
+    <!--browser process instance switch-->
+    <!--Change the value to "enable" if the browser process needs to be searched and killed automatically before the test execution-->
+    <entry key="browserProcessInstanceKillSwitch">disable</entry>
+
+    <!--Webdriver name and paths-->
+    <!--chrome-->
+    <entry key="ChromeDriverName">webdriver.chrome.driver</entry>
+    <entry key="ChromeDriverPath">../sfCore/browserDriver/chromedriver.exe</entry>
+
+    <!--firefox-->
+    <entry key="FireFoxDriverName">webdriver.gecko.driver</entry>
+    <entry key="FireFoxDriverPath">../sfCore/browserDriver/geckodriver.exe</entry>
+
+    <!--proxy configurations-->
+    <!--cognizant proxy-->
+    <entry key="CognizantProxySwitch">enable</entry>
+    <entry key="CognizantProxyAddress">proxy.cognizant.com</entry>
+    <entry key="CognizantProxyPort">6050</entry>
+
+    <!--Log File Location Path-->
+    <entry key="LogFolderParentPath">./testResult/</entry>
+    <!--log4j log path sufix-->
+    <entry key="TestResultLocationPath">../sfTest/testResult/</entry>
+    <!--log4j Log path prefix-->
+    <entry key="Log4jLogPathDestination">/log/seleniumFrameWork.log</entry>
+    <!--Log Folder Names-->
+    <entry key="TestReport">testReport</entry>
+    <entry key="Log">log</entry>
+    <entry key="Screenshot">screenshots</entry>
+    <entry key="TestData">testData</entry>
+    <entry key="Email">email</entry>
+    
+    <!--Compressed test result path for emailing-->
+    <entry key="EmailContentLocation">/email/</entry>
+    
+    
+    <!--Extent Report Configuration-->
+    <!--Extent report Configuration File location path-->
+    <entry key="ExtentReportConfigFile">../sfTest/src/main/resources/extent-config.xml</entry>
+    <!--Extent report destination location path sufix-->
+    <entry key="ExtentReportDestinationLocation">/testReport/</entry>
+    <!--Extent report source location path -->
+    <entry key="ExtentReportSourceLocation">../sfTest/build</entry>
+    
+
+    <!--Error Screenshot location path-->
+    <entry key="ErrorScreenShotLocation">/screenshots/</entry>
+    <!--Image compare target location-->
+    <entry key="ImageCompareTargetLocation">target/image-compare/</entry>
+    <!--Image compare source location-->
+    <entry key="ImageCompareSourceLocation">src/main/resources/sourceImageFile/</entry>
+
+
+    <!-- Automation test home URL's -->
+    <entry key="DottiAustralia">https://www.dotti.com.au/shop/en/dotti</entry>
+
+    <!--Australian Test url-->
+    <!-- <entry key="DottiAustralia">https://tstaur.dotti.com.au</entry> -->
+    
+    <!--Eclipx Url  -->
+    <entry key="Eclipx">https://db-dev.eclipx.xyz</entry>
+    
+     <!-- Facebook home URL's -->
+    <entry key="Facebook">https://www.facebook.com</entry>
+</properties>
+
