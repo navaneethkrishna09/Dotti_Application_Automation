@@ -1,210 +1,5517 @@
-[
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2020-09-09T10:53:03.974Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5990535300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            }
-          }
-        ],
-        "line": 20,
-        "name": "Dotti Product Search",
-        "description": "",
-        "id": "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;5",
-        "after": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-41R0DTGP\u0027, ip: \u0027192.168.18.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\NAVANE~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: c80c30f3b0f426f5643b721e179f01ff\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)\r\n\tat steps.StepHooks.AfterScenario(StepHooks.java:39)\r\n",
-              "duration": 20804200,
-              "status": "failed"
-            },
-            "match": {
-              "location": "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            }
-          },
-          {
-            "result": {
-              "duration": 765985400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6575195500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User opens the URL \"DottiAustralia\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "DottiAustralia",
-                  "offset": 20
-                }
-              ],
-              "location": "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 26458600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User verifies if the home page is correct",
-            "match": {
-              "location": "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5227034400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the menu bar \"Jackets\" and choose the \"Jackets \u0026 Coats\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Jackets",
-                  "offset": 29
-                },
-                {
-                  "val": "Jackets \u0026 Coats",
-                  "offset": 54
-                }
-              ],
-              "location": "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 97931700,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Verify the product list page \"Jackets \u0026 Coats\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Jackets \u0026 Coats",
-                  "offset": 30
-                }
-              ],
-              "location": "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 334852800,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User selects a random product",
-            "match": {
-              "location": "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 580955500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Verify the Product Description Page",
-            "match": {
-              "location": "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-41R0DTGP\u0027, ip: \u0027192.168.18.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\NAVANE~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: c80c30f3b0f426f5643b721e179f01ff\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027product-variant__heading\u0027 and @style\u003d\u0027display:none\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:423)\r\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:348)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)\r\n\tat com.seleniumframework.base.BasePage.getWebElementsProperties(BasePage.java:778)\r\n\tat com.seleniumframework.base.BasePage.getElementsPropertiesByXpath(BasePage.java:816)\r\n\tat uipages.DottiItemSelectPage.selectSize(DottiItemSelectPage.java:173)\r\n\tat steps.DottiItemSelectSteps.selectSize(DottiItemSelectSteps.java:58)\r\n\tat ✽.User chooses selects a random size(src/main/java/feature/dottiItemSelect.feature:12)\r\n",
-              "duration": 10564385800,
-              "status": "failed"
-            },
-            "line": 12,
-            "name": "User chooses selects a random size",
-            "match": {
-              "location": "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5179400,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "enters the quantity \"1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 21
-                }
-              ],
-              "location": "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3987400,
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User adds the product to the bag",
-            "match": {
-              "location": "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@DottiItemSelect"
-          },
-          {
-            "name": "@SearchAndSelectProduct"
-          }
-        ]
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:11:20.656Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5811523300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
       }
-    ],
-    "name": "Select a product from DOtti site and then add it to the bag",
-    "description": "",
-    "id": "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
-    "keyword": "Feature",
-    "uri": "file:src/main/java/feature/dottiItemSelect.feature",
-    "tags": [
-      {
-        "name": "@DottiItemSelect",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
+    } ],
+    "line" : 13,
+    "name" : "Log in with invalid credentials",
+    "description" : "",
+    "id" : "sign-in-functionality-check;log-in-with-invalid-credentials;;2",
+    "after" : [ {
+      "result" : {
+        "duration" : 996800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
       }
-    ]
-  }
-]
+    }, {
+      "result" : {
+        "duration" : 670912200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3123757000,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1778906400,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User clicks on sign in menu option",
+      "match" : {
+        "location" : "steps.DottiSignInSteps.signInOptionClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 9972400,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Verifies the sign in page",
+      "match" : {
+        "location" : "steps.DottiSignInSteps.signInPageVerify() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 240357400,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User enters invalid \"ggg@gmail.com\" and \"ggggggg\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "ggg@gmail.com",
+          "offset" : 21
+        }, {
+          "val" : "ggggggg",
+          "offset" : 41
+        } ],
+        "location" : "steps.DottiSignInSteps.credentialEntry(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 3658561700,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Clicks on Sign in button",
+      "match" : {
+        "location" : "steps.DottiSignInSteps.signInButtonClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 63702400,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "Check if the error message is displayed",
+      "match" : {
+        "location" : "steps.DottiSignInSteps.errorMsgCheck() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiInvalidLogin"
+    } ]
+  } ],
+  "name" : "Sign In Functionality Check",
+  "description" : "",
+  "id" : "sign-in-functionality-check",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/DottiSignIn.feature",
+  "tags" : [ ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:26:05.503Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5764829700,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 21,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;6",
+    "after" : [ {
+      "result" : {
+        "duration" : 1996500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 654928500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3567853800,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 9960000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5558956100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Tops\" and choose the \"Basics\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Tops",
+          "offset" : 29
+        }, {
+          "val" : "Basics",
+          "offset" : 51
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 11966600,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Basics\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Basics",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6655016300,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 44065700,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35571437600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 167503200,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 171242600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:27:04.498Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5781853100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 18,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;3",
+    "after" : [ {
+      "result" : {
+        "duration" : 1031800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 661505000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4907229200,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 6742000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5428287600,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"New in\" and choose the \"Shoes & Accessories\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "New in",
+          "offset" : 29
+        }, {
+          "val" : "Shoes & Accessories",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 12136900,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Shoes & Accessories\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shoes & Accessories",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4816168200,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 49558800,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 11506939000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 226107600,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 196485300,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:35:11.368Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5825406000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 17,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;2",
+    "after" : [ {
+      "result" : {
+        "duration" : 997200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 682430000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2032627400,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7977700,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5180142400,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"New in\" and choose the \"Clothing\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "New in",
+          "offset" : 29
+        }, {
+          "val" : "Clothing",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 9974200,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Clothing\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Clothing",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 8448545400,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 47708500,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35817179900,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 201912000,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"2\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 157487000,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:12:40.394Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5832292300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 28,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;13",
+    "after" : [ {
+      "result" : {
+        "duration" : 986700,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 704293600,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4165684300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8569900,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5550360100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Offers\" and choose the \"2 For $30 Basics\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Offers",
+          "offset" : 29
+        }, {
+          "val" : "2 For $30 Basics",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 13963800,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"2 For $30 Basics\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2 For $30 Basics",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 13495140100,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 46382600,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35608282000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 186852200,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 166253500,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:15:54.225Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5792090300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 43,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;28",
+    "after" : [ {
+      "result" : {
+        "duration" : 999400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 668639100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2506061600,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8974700,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5819485700,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Shoes & Accessories\" and choose the \"Hats & Hair Accessories\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shoes & Accessories",
+          "offset" : 29
+        }, {
+          "val" : "Hats & Hair Accessories",
+          "offset" : 66
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 14957000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Hats & Hair Accessories\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Hats & Hair Accessories",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 246470900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 514291800,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 45621461800,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 231150800,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 192068600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:14:55.069Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5849813900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 26,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;11",
+    "after" : [ {
+      "result" : {
+        "duration" : 1035000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 675125900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4024420500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 6979100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4256432600,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"New in\" and choose the \"Linen Edit\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "New in",
+          "offset" : 29
+        }, {
+          "val" : "Linen Edit",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 13963700,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Linen Edit\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Linen Edit",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 7473486700,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 42989000,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35612909500,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 198110700,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 171754700,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:27:38.962Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5797398800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 24,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;9",
+    "after" : [ {
+      "result" : {
+        "duration" : 977200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 704537100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4972728700,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 6977700,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4297892600,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"New in\" and choose the \"Insta Edit\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "New in",
+          "offset" : 29
+        }, {
+          "val" : "Insta Edit",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 12957700,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Insta Edit\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Insta Edit",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 11514477600,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 46579900,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35717964700,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 174276000,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 188401900,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:32:48.839Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5846245900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 47,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;32",
+    "after" : [ {
+      "result" : {
+        "duration" : 997300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 733791900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4602661000,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 13994600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6303270200,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Sale\" and choose the \"Shop By Product\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Sale",
+          "offset" : 29
+        }, {
+          "val" : "Shop By Product",
+          "offset" : 51
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 12936000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Shop By Product\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shop By Product",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 25602242600,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 51056000,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35464273600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 192514700,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 157862100,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:03:43.469Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 7032140100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 20,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;5",
+    "after" : [ {
+      "result" : {
+        "duration" : 1994900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 686603900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3580719700,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 9973000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 3961674900,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Jackets\" and choose the \"Jackets & Coats\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Jackets",
+          "offset" : 29
+        }, {
+          "val" : "Jackets & Coats",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 15956900,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Jackets & Coats\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Jackets & Coats",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 26943371100,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 49635000,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 36077645100,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 197274400,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 168648500,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:13:47.016Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5839452400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 39,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;24",
+    "after" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 692116500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4099377400,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7970600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 9668285900,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Shoes & Accessories\" and choose the \"Accessories\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shoes & Accessories",
+          "offset" : 29
+        }, {
+          "val" : "Accessories",
+          "offset" : 66
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 10365900,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Accessories\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Accessories",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 265404600,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 642487900,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 45552118500,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 219413000,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 188188200,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:24:14.627Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5794676200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 35,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;20",
+    "after" : [ {
+      "result" : {
+        "duration" : 997100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 651186800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3532812900,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 29922700,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 3687936500,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Dresses\" and choose the \"Party\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Dresses",
+          "offset" : 29
+        }, {
+          "val" : "Party",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 9967600,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Party\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Party",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4901763100,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 49959700,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35792456600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 173539900,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 174970300,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:29:47.487Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5790921000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 19,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;4",
+    "after" : [ {
+      "result" : {
+        "duration" : 996000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 665295100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1688325300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8615600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 2103422700,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Offers\" and choose the \"2 For $70 Jeans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Offers",
+          "offset" : 29
+        }, {
+          "val" : "2 For $70 Jeans",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 10972100,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"2 For $70 Jeans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2 For $70 Jeans",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6374986600,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 43564900,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35644347100,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 197905300,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 170073700,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:05:03.265Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5838648900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 45,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;30",
+    "after" : [ {
+      "result" : {
+        "duration" : 997400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 680308500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2853855500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 10969200,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 2326737300,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Lookbooks\" and choose the \"Trending Florals\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Lookbooks",
+          "offset" : 29
+        }, {
+          "val" : "Trending Florals",
+          "offset" : 56
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 10970100,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Trending Florals\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Trending Florals",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 10510343400,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1050903500,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 45708330300,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1041409000,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1046538500,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:07:27.457Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5835054800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 36,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;21",
+    "after" : [ {
+      "result" : {
+        "duration" : 1018700,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 703578800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3381940500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 6980400,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 3463773500,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Dresses\" and choose the \"Playsuits & Jumpsuits\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Dresses",
+          "offset" : 29
+        }, {
+          "val" : "Playsuits & Jumpsuits",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 12963200,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Playsuits & Jumpsuits\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Playsuits & Jumpsuits",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6084237300,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 49398200,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35507409800,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 180549900,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 196343800,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:36:10.623Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5812885100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 40,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;25",
+    "after" : [ {
+      "result" : {
+        "duration" : 2004900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 689617100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 5135632000,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7972600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4123976700,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Shoes & Accessories\" and choose the \"Belts & Bags\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shoes & Accessories",
+          "offset" : 29
+        }, {
+          "val" : "Belts & Bags",
+          "offset" : 66
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 13963000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Belts & Bags\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Belts & Bags",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 3865928400,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 45018600,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35698519600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 190211300,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 159787500,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:20:45.948Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5807022600,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 44,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;29",
+    "after" : [ {
+      "result" : {
+        "duration" : 3990400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 655356200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2964704100,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8949600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 13692482900,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Lookbooks\" and choose the \"New Neutrals\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Lookbooks",
+          "offset" : 29
+        }, {
+          "val" : "New Neutrals",
+          "offset" : 56
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 35904800,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"New Neutrals\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "New Neutrals",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 10475595000,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1037587200,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 45701073300,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1054026300,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1070715600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:19:45.891Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5787279800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 25,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;10",
+    "after" : [ {
+      "result" : {
+        "duration" : 996400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 679789500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2744068800,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 9973800,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4164335300,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"New in\" and choose the \"Fresh New Hues\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "New in",
+          "offset" : 29
+        }, {
+          "val" : "Fresh New Hues",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 16436800,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Fresh New Hues\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Fresh New Hues",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 9805262200,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 64892200,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35617311100,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 172945500,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 169094000,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:34:08.679Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5780156500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 42,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;27",
+    "after" : [ {
+      "result" : {
+        "duration" : 997000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 631257500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3350826900,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 9001900,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4819738900,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Shoes & Accessories\" and choose the \"Socks & Tights\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shoes & Accessories",
+          "offset" : 29
+        }, {
+          "val" : "Socks & Tights",
+          "offset" : 66
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 8978100,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Socks & Tights\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Socks & Tights",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 241346800,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 972205400,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 45650021400,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 213133400,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 174869600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:08:23.723Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5734799600,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 22,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;7",
+    "after" : [ {
+      "result" : {
+        "duration" : 1960600,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 675342800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3915140700,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8511000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 3975564000,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Bottoms\" and choose the \"Pants\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Bottoms",
+          "offset" : 29
+        }, {
+          "val" : "Pants",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 9971400,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Pants\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Pants",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 8178336300,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 46282000,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35761605600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 185732700,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"2\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 206512600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:06:15.188Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5856381200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 46,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;31",
+    "after" : [ {
+      "result" : {
+        "duration" : 1993100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 651041900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3565001900,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8749500,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1911480500,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Lookbooks\" and choose the \"Soft Hues\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Lookbooks",
+          "offset" : 29
+        }, {
+          "val" : "Soft Hues",
+          "offset" : 56
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 9971500,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Soft Hues\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Soft Hues",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 10499811200,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1060450700,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 45757002400,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1079842300,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1019038000,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:09:23.225Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5801823400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 34,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;19",
+    "after" : [ {
+      "result" : {
+        "duration" : 1992400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 686653900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3411452300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8944000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6114954400,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Dresses\" and choose the \"Midi & Maxi\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Dresses",
+          "offset" : 29
+        }, {
+          "val" : "Midi & Maxi",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 8977000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Midi & Maxi\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Midi & Maxi",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 7656095900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 49537400,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35937590700,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 180743900,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 159416500,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:10:24.050Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5837093500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 41,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;26",
+    "after" : [ {
+      "result" : {
+        "duration" : 995900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 683713100,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3958339000,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 6980100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5086337300,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Shoes & Accessories\" and choose the \"Shoes\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shoes & Accessories",
+          "offset" : 29
+        }, {
+          "val" : "Shoes",
+          "offset" : 66
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 13962600,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Shoes\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shoes",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4143756800,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 44389700,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35640762200,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 179816000,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 189119800,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:31:45.576Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5815387000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 33,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;18",
+    "after" : [ {
+      "result" : {
+        "duration" : 1031200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 701228300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 6291593900,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7344600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6971227600,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Dresses\" and choose the \"Casual\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Dresses",
+          "offset" : 29
+        }, {
+          "val" : "Casual",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 8974300,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Casual\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Casual",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6700520500,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 42819200,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35556971100,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 182416700,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 170083600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:16:56.672Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5810170300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 38,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;23",
+    "after" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 710046200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4144105200,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8122600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4053447000,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Bottoms\" and choose the \"Skirts & Shorts\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Bottoms",
+          "offset" : 29
+        }, {
+          "val" : "Skirts & Shorts",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 9998300,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Skirts & Shorts\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Skirts & Shorts",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 18157731800,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 45810200,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35595717000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 191036500,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 179686600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:28:43.252Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5829600300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 32,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;17",
+    "after" : [ {
+      "result" : {
+        "duration" : 993300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 679056700,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3266815200,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8469500,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4736273000,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Tops\" and choose the \"Shirts & Blouses\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Tops",
+          "offset" : 29
+        }, {
+          "val" : "Shirts & Blouses",
+          "offset" : 51
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 15955300,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Shirts & Blouses\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Shirts & Blouses",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 12741154200,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 45912800,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35682665600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 193396500,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 175687100,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:30:41.128Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5924257000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 31,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;16",
+    "after" : [ {
+      "result" : {
+        "duration" : 980900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 673807800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3162688500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7969500,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6557369000,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Tops\" and choose the \"Casual Tops\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Tops",
+          "offset" : 29
+        }, {
+          "val" : "Casual Tops",
+          "offset" : 51
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 12928200,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Casual Tops\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Casual Tops",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 11042795900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 47880600,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35792177800,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 192039900,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 169326100,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:25:10.276Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5790230800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 37,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;22",
+    "after" : [ {
+      "result" : {
+        "duration" : 998300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 667418300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2006343300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7366200,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4986832800,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Bottoms\" and choose the \"Jeans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Bottoms",
+          "offset" : 29
+        }, {
+          "val" : "Jeans",
+          "offset" : 54
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 13993600,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Jeans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Jeans",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4880620900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 44804600,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35636672700,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 202211800,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"2\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 163351000,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:11:36.826Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5779566000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 27,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;12",
+    "after" : [ {
+      "result" : {
+        "duration" : 1993600,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 676382300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2751209700,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7979000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5256666600,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Offers\" and choose the \"2 For $70 Jeans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Offers",
+          "offset" : 29
+        }, {
+          "val" : "2 For $70 Jeans",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 11965200,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"2 For $70 Jeans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2 For $70 Jeans",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 12350436100,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 47067500,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35514982500,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 173819800,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 187124300,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:22:09.297Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5856952500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 23,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;8",
+    "after" : [ {
+      "result" : {
+        "duration" : 1025300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 671370500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3181499600,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 5979600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 7185616100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"New in\" and choose the \"Best Sellers\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "New in",
+          "offset" : 29
+        }, {
+          "val" : "Best Sellers",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 18945400,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Best Sellers\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Best Sellers",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4046535900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 49036300,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35692156200,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 181236300,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"2\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 162349300,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:23:07.137Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5787749600,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 29,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;14",
+    "after" : [ {
+      "result" : {
+        "duration" : 995700,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 689307500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 3087667100,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 10003800,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4607997100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Offers\" and choose the \"Knits From $25\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Offers",
+          "offset" : 29
+        }, {
+          "val" : "Knits From $25",
+          "offset" : 53
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 10969400,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Knits From $25\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Knits From $25",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 16573344300,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 44797600,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35487095500,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 178814000,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"2\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "2",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 171642500,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2020-09-09T19:18:06.385Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 5781804800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.beforeScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "line" : 30,
+    "name" : "Dotti Product Search",
+    "description" : "",
+    "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag;dotti-product-search;;15",
+    "after" : [ {
+      "result" : {
+        "duration" : 997200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.StepHooks.AfterScenario(Scenario) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    }, {
+      "result" : {
+        "duration" : 737425600,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.teardown() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2498701300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User opens the URL \"DottiAustralia\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "DottiAustralia",
+          "offset" : 20
+        } ],
+        "location" : "steps.DottiItemSelectSteps.siteLaunch(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8248900,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User verifies if the home page is correct",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyHomePage() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 4870199100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User clicks on the menu bar \"Tops\" and choose the \"Knitwear & Cardigans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Tops",
+          "offset" : 29
+        }, {
+          "val" : "Knitwear & Cardigans",
+          "offset" : 51
+        } ],
+        "location" : "steps.DottiItemSelectSteps.menuBarSelect(String,String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 15920000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "Verify the product list page \"Knitwear & Cardigans\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Knitwear & Cardigans",
+          "offset" : 30
+        } ],
+        "location" : "steps.DottiItemSelectSteps.verifyProductListPage(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 48555731800,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User selects a random product",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemClick() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 48983800,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "Verify the Product Description Page",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.verifyProductDescripion() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35773162700,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "User chooses selects a random size",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.selectSize() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 199322600,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "enters the quantity \"1\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "1",
+          "offset" : 21
+        } ],
+        "location" : "steps.DottiItemSelectSteps.quantityEntry(String) in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 198621000,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "User adds the product to the bag",
+      "match" : {
+        "location" : "steps.DottiItemSelectSteps.itemAddToBag() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@DottiItemSelect"
+    }, {
+      "name" : "@SearchAndSelectProduct"
+    } ]
+  } ],
+  "name" : "Select a product from DOtti site and then add it to the bag",
+  "description" : "",
+  "id" : "select-a-product-from-dotti-site-and-then-add-it-to-the-bag",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/feature/dottiItemSelect.feature",
+  "tags" : [ {
+    "name" : "@DottiItemSelect",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} ]

@@ -59,11 +59,4 @@ public class TestRunSeleniumFramework extends BasePage {
         CustomExtendReport.zipReport();
         log.info("Exited flushExtendReport method in TestRunSeleniumFrameWork class");
     }
-    @CourgetteAfterAll
-    public void teardown()
-    {	System.out.println("}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}");
-    	DottiItemSelectPage.driver.quit();
-    	DottiSignInPage.driver.quit();
-    }
-    
 }

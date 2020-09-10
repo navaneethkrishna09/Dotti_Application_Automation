@@ -1,1 +1,3 @@
-file:src/main/java/feature/DottiSignIn.feature:13
+file:src/main/java/feature/dottiItemSelect.feature:30
+file:src/main/java/feature/dottiItemSelect.feature:31
+file:src/main/java/feature/dottiItemSelect.feature:47

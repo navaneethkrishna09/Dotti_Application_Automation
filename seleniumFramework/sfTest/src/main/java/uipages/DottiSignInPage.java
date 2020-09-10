@@ -15,6 +15,8 @@ import com.seleniumframework.customexceptions.drivercustomexceptions.InvalidInpu
 import com.seleniumframework.customexceptions.drivercustomexceptions.WebDriverInstanceNullException;
 import com.seleniumframework.resourceRead.ResourceRead;
 
+import applicationcustomexceptions.InvalidLoginException;
+
 public class DottiSignInPage extends BasePage {
 	public static WebDriver driver;
 	private String propertyPath = "/DottiPageResource.properties";
@@ -109,7 +111,7 @@ public class DottiSignInPage extends BasePage {
 		}	
 	}
 	
-	public void errorMsgCheck() throws ApplicationCustomException
+	public void errorMsgCheck() throws InvalidLoginException
 	{
 		String errorMsgPath,errorMsgValue;
 		try {

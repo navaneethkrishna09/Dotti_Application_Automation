@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="Test Suite" skipped="0" tests="3" time="163.757">
+<testsuite failures="0" name="Test Suite" skipped="0" tests="32" time="1983.4739999999997">
 
-<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="24.196">
+<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="15.4">
             
-    <failure message="Invalid Login Attempt" type="com.seleniumframework.customexceptions.ApplicationCustomException">
+    <system-out>
                     
         <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
 Then User clicks on sign in menu option.....................................passed
 And Verifies the sign in page...............................................passed
 Then User enters invalid "ggg@gmail.com" and "ggggggg"......................passed
 And Clicks on Sign in button................................................passed
-Then Check if the error message is displayed................................failed
-
-StackTrace:
-com.seleniumframework.customexceptions.ApplicationCustomException: Invalid Login Attempt
-	at uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:122)
-	at steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:40)
-	at ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)
+Then Check if the error message is displayed................................passed
 ]]>
                 
-    </failure>
+    </system-out>
         
 </testcase>
 
-<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="73.236">
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="58.258">
             
     <system-out>
                     
         <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
 And User verifies if the home page is correct...............................passed
-Then User clicks on the menu bar "Shoes & Accessories" and choose the "Gift Cards".passed
-And Verify the product list page "Gift Cards"...............................passed
+Then User clicks on the menu bar "Tops" and choose the "Basics".............passed
+And Verify the product list page "Basics"...................................passed
 Then User selects a random product..........................................passed
 And Verify the Product Description Page.....................................passed
 Then User chooses selects a random size.....................................passed
@@ -42,7 +36,7 @@ And User adds the product to the bag........................................pass
         
 </testcase>
 
-<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="65.854">
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="33.665">
             
     <system-out>
                     
@@ -50,6 +44,557 @@ And User adds the product to the bag........................................pass
 And User verifies if the home page is correct...............................passed
 Then User clicks on the menu bar "New in" and choose the "Shoes & Accessories".passed
 And Verify the product list page "Shoes & Accessories"......................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="58.472">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "New in" and choose the "Clothing".........passed
+And Verify the product list page "Clothing".................................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "2".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="65.844">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Offers" and choose the "2 For $30 Basics".passed
+And Verify the product list page "2 For $30 Basics".........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="61.675">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Shoes & Accessories" and choose the "Hats & Hair Accessories".passed
+And Verify the product list page "Hats & Hair Accessories"..................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="58.399">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "New in" and choose the "Linen Edit".......passed
+And Verify the product list page "Linen Edit"...............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="63.494">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "New in" and choose the "Insta Edit".......passed
+And Verify the product list page "Insta Edit"...............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="79.044">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Sale" and choose the "Shop By Product"....passed
+And Verify the product list page "Shop By Product"..........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="78.81">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Jackets" and choose the "Jackets & Coats".passed
+And Verify the product list page "Jackets & Coats"..........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="67.26">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Shoes & Accessories" and choose the "Accessories".passed
+And Verify the product list page "Accessories"..............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="54.878">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Dresses" and choose the "Party"...........passed
+And Verify the product list page "Party"....................................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="52.783">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Offers" and choose the "2 For $70 Jeans"..passed
+And Verify the product list page "2 For $70 Jeans"..........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="71.144">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Lookbooks" and choose the "Trending Florals".passed
+And Verify the product list page "Trending Florals".........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="55.52">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Dresses" and choose the "Playsuits & Jumpsuits".passed
+And Verify the product list page "Playsuits & Jumpsuits"....................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="55.83">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Shoes & Accessories" and choose the "Belts & Bags".passed
+And Verify the product list page "Belts & Bags".............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="82.568">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Lookbooks" and choose the "New Neutrals"..passed
+And Verify the product list page "New Neutrals".............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="59.295">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "New in" and choose the "Fresh New Hues"...passed
+And Verify the product list page "Fresh New Hues"...........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="61.913">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Shoes & Accessories" and choose the "Socks & Tights".passed
+And Verify the product list page "Socks & Tights"...........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="58.758">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Bottoms" and choose the "Pants"...........passed
+And Verify the product list page "Pants"....................................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "2".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="71.502">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Lookbooks" and choose the "Soft Hues".....passed
+And Verify the product list page "Soft Hues"................................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="60.081">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Dresses" and choose the "Midi & Maxi".....passed
+And Verify the product list page "Midi & Maxi"..............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="55.866">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Shoes & Accessories" and choose the "Shoes".passed
+And Verify the product list page "Shoes"....................................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="62.513">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Dresses" and choose the "Casual"..........passed
+And Verify the product list page "Casual"...................................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="68.962">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Bottoms" and choose the "Skirts & Shorts".passed
+And Verify the product list page "Skirts & Shorts"..........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="63.435">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Tops" and choose the "Shirts & Blouses"...passed
+And Verify the product list page "Shirts & Blouses".........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="63.674">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Tops" and choose the "Casual Tops"........passed
+And Verify the product list page "Casual Tops"..............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="54.457">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Bottoms" and choose the "Jeans"...........passed
+And Verify the product list page "Jeans"....................................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "2".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="62.816">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Offers" and choose the "2 For $70 Jeans"..passed
+And Verify the product list page "2 For $70 Jeans"..........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "1".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="57.116">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "New in" and choose the "Best Sellers".....passed
+And Verify the product list page "Best Sellers".............................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "2".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="66.707">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Offers" and choose the "Knits From $25"...passed
+And Verify the product list page "Knits From $25"...........................passed
+Then User selects a random product..........................................passed
+And Verify the Product Description Page.....................................passed
+Then User chooses selects a random size.....................................passed
+And enters the quantity "2".................................................passed
+And User adds the product to the bag........................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+<testcase classname="Select a product from DOtti site and then add it to the bag" name="Dotti Product Search" time="98.754">
+            
+    <system-out>
+                    
+        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+And User verifies if the home page is correct...............................passed
+Then User clicks on the menu bar "Tops" and choose the "Knitwear & Cardigans".passed
+And Verify the product list page "Knitwear & Cardigans".....................passed
 Then User selects a random product..........................................passed
 And Verify the Product Description Page.....................................passed
 Then User chooses selects a random size.....................................passed

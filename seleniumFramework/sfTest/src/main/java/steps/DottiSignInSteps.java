@@ -2,6 +2,7 @@ package steps;
 
 import com.seleniumframework.customexceptions.ApplicationCustomException;
 
+import applicationcustomexceptions.InvalidLoginException;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import uipages.DottiSignInPage;
@@ -35,7 +36,7 @@ public class DottiSignInSteps {
 	}
 	
 	@Then("^Check if the error message is displayed$")
-	public void errorMsgCheck() throws ApplicationCustomException
+	public void errorMsgCheck() throws ApplicationCustomException, InvalidLoginException
 	{
 		signinObject.errorMsgCheck();
 	}
