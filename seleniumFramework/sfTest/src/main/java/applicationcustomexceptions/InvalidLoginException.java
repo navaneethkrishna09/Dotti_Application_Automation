@@ -4,6 +4,11 @@ import com.seleniumframework.customexceptions.BaseAutomationException;
 
 public class InvalidLoginException extends BaseAutomationException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public InvalidLoginException()
 	{
 		super();

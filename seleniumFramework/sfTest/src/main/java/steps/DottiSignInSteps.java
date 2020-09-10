@@ -36,7 +36,7 @@ public class DottiSignInSteps {
 	}
 	
 	@Then("^Check if the error message is displayed$")
-	public void errorMsgCheck() throws ApplicationCustomException, InvalidLoginException
+	public void errorMsgCheck() throws InvalidLoginException
 	{
 		signinObject.errorMsgCheck();
 	}

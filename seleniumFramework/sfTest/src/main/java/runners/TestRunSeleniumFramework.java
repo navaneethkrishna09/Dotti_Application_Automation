@@ -29,7 +29,7 @@ import uipages.DottiSignInPage;
 //               tags = {"@eclipxQots"},
 //                tags = {"@checkHeaderLinks"},
 //        		tags = {"@Unsuccessfullogin or @Successfullogin"},
-                tags = {"@DottiItemSelect or @DottiInvalidLogin"},
+                tags = {"@DottiInvalidLogin"},
                 features = {"src/main/java/feature"},
                 glue = {"steps"},
                 monochrome = true,

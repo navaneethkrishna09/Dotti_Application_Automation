@@ -121,7 +121,7 @@ public class DottiSignInPage extends BasePage {
 			if(!errorMsgElement.isEmpty())
 			if(errorMsgElement.get(0).getText().contains(errorMsgValue))
 					{
-						throw new InvalidInputException("Invalid Login Attempt");
+						throw new InvalidLoginException("Invalid Login Attempt");
 					}
 		} catch (ResourceCustomException e) {
 			// TODO Auto-generated catch block
