@@ -1,51 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="Test Suite" skipped="0" tests="1" time="27.548">
+<testsuite failures="1" name="Test Suite" skipped="0" tests="1" time="20.379">
 
-<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="27.392">
+<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="20.245">
             
-    <failure message="chrome not reachable&#10;  (Session info: chrome=85.0.4183.102)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'&#10;System info: host: 'LAPTOP-41R0DTGP', ip: '192.168.18.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}&#10;Session ID: 8f278efedcf38ca368e3841c7b8074e0&#10;*** Element info: {Using=xpath, value=//*[contains(text(),'Sign In') and @class='header__drop-link']}" type="org.openqa.selenium.WebDriverException">
+    <failure message="Invalid Login Attempt" type="applicationcustomexceptions.InvalidLoginException">
                     
         <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
-Then User clicks on sign in menu option.....................................failed
-And Verifies the sign in page...............................................skipped
-Then User enters invalid "ggg@gmail.com" and "ggggggg"......................skipped
-And Clicks on Sign in button................................................skipped
-Then Check if the error message is displayed................................skipped
+Then User clicks on sign in menu option.....................................passed
+And Verifies the sign in page...............................................passed
+Then User enters invalid "ggg@gmail.com" and "ggggggg"......................passed
+And Clicks on Sign in button................................................passed
+Then Check if the error message is displayed................................failed
 
 StackTrace:
-org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.102)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'LAPTOP-41R0DTGP', ip: '192.168.18.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 8f278efedcf38ca368e3841c7b8074e0
-*** Element info: {Using=xpath, value=//*[contains(text(),'Sign In') and @class='header__drop-link']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.seleniumframework.base.BaseTestFixture.waitForElement(BaseTestFixture.java:42)
-	at com.seleniumframework.base.BasePage.clickOnButton(BasePage.java:100)
-	at com.seleniumframework.base.BasePage.clickOnButtonByXpath(BasePage.java:122)
-	at uipages.DottiSignInPage.signInOptionClick(DottiSignInPage.java:36)
-	at steps.DottiSignInSteps.signInOptionClick(DottiSignInSteps.java:17)
-	at ✽.User clicks on sign in menu option(src/main/java/feature/DottiSignIn.feature:6)
+applicationcustomexceptions.InvalidLoginException: Invalid Login Attempt
+	at uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:124)
+	at steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:41)
+	at ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)
 ]]>
                 
     </failure>

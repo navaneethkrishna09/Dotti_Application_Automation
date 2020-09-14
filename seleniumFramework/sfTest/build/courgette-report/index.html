@@ -109,14 +109,14 @@
                             <div class="col-sm-3">
                                 Timestamp:
                             </div>
-                            <div>2020-09-14T15:02:25.368718700Z</div>
+                            <div>2020-09-14T15:54:56.812525Z</div>
                         </div>
 
                         <div class="row mt-3">
                             <div class="col-sm-3">
                                 Duration:
                             </div>
-                            <div>0 min, 28 sec</div>
+                            <div>0 min, 21 sec</div>
                         </div>
 
                         <div class="row mt-3">
@@ -183,7 +183,7 @@
                         <tbody>
                         <tr>
                                     <td>
-                                        <a href="" data-toggle="modal" data-target="#d16491d4-bf16-4102-a74b-b89eed86d759">Log in with invalid credentials</a>
+                                        <a href="" data-toggle="modal" data-target="#69d340ea-e417-4b4b-956e-30ba1223c74b">Log in with invalid credentials</a>
                                     </td>
                                     <td>
                                         <span class="float-left badge badge-danger">Failed</span>
@@ -200,7 +200,7 @@
     <!-- /.container-fluid -->
 
     <!-- Modals -->
-    <div class="modal fade" id="d16491d4-bf16-4102-a74b-b89eed86d759" tabindex="-1" role="dialog" aria-labelledby="d16491d4-bf16-4102-a74b-b89eed86d759" aria-hidden="true">
+    <div class="modal fade" id="69d340ea-e417-4b4b-956e-30ba1223c74b" tabindex="-1" role="dialog" aria-labelledby="69d340ea-e417-4b4b-956e-30ba1223c74b" aria-hidden="true">
 <div class="modal-dialog modal-lg" role="document">
 <div class="modal-content">
 <div class="modal-header text-white bg-dark">
@@ -217,7 +217,7 @@ steps.StepHooks.beforeScenario(Scenario)
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">5839 ms</span>
+<span class="badge badge-info">5854 ms</span>
 <span class="badge badge-success">Passed</span>
 </span>
 </div>
@@ -229,7 +229,7 @@ Given User opens the URL "DottiAustralia"
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">3971 ms</span>
+<span class="badge badge-info">6457 ms</span>
 <span class="badge badge-success">Passed</span>
 </span>
 </div>
@@ -241,47 +241,9 @@ Then User clicks on sign in menu option
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">8772 ms</span>
-<span class="badge badge-danger">Failed</span>
+<span class="badge badge-info">1913 ms</span>
+<span class="badge badge-success">Passed</span>
 </span>
-</div>
-</div>
-<div class="row mt-2">
-<div class="col-lg-12 text-danger" style="overflow-wrap:break-word;">
-org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.102)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'LAPTOP-41R0DTGP', ip: '192.168.18.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 8f278efedcf38ca368e3841c7b8074e0
-*** Element info: {Using=xpath, value=//*[contains(text(),'Sign In') and @class='header__drop-link']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.seleniumframework.base.BaseTestFixture.waitForElement(BaseTestFixture.java:42)
-	at com.seleniumframework.base.BasePage.clickOnButton(BasePage.java:100)
-	at com.seleniumframework.base.BasePage.clickOnButtonByXpath(BasePage.java:122)
-	at uipages.DottiSignInPage.signInOptionClick(DottiSignInPage.java:36)
-	at steps.DottiSignInSteps.signInOptionClick(DottiSignInSteps.java:17)
-	at ✽.User clicks on sign in menu option(src/main/java/feature/DottiSignIn.feature:6)
-
 </div>
 </div>
 <hr>
@@ -291,8 +253,8 @@ And Verifies the sign in page
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">0 ms</span>
-<span class="badge badge-warning">Skipped</span>
+<span class="badge badge-info">97 ms</span>
+<span class="badge badge-success">Passed</span>
 </span>
 </div>
 </div>
@@ -303,8 +265,8 @@ Then User enters invalid "ggg@gmail.com" and "ggggggg"
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">1 ms</span>
-<span class="badge badge-warning">Skipped</span>
+<span class="badge badge-info">272 ms</span>
+<span class="badge badge-success">Passed</span>
 </span>
 </div>
 </div>
@@ -315,8 +277,8 @@ And Clicks on Sign in button
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">0 ms</span>
-<span class="badge badge-warning">Skipped</span>
+<span class="badge badge-info">4571 ms</span>
+<span class="badge badge-success">Passed</span>
 </span>
 </div>
 </div>
@@ -327,9 +289,18 @@ Then Check if the error message is displayed
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">0 ms</span>
-<span class="badge badge-warning">Skipped</span>
+<span class="badge badge-info">63 ms</span>
+<span class="badge badge-danger">Failed</span>
 </span>
+</div>
+</div>
+<div class="row mt-2">
+<div class="col-lg-12 text-danger" style="overflow-wrap:break-word;">
+applicationcustomexceptions.InvalidLoginException: Invalid Login Attempt
+	at uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:124)
+	at steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:41)
+	at ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)
+
 </div>
 </div>
 <hr>
@@ -339,39 +310,14 @@ steps.StepHooks.AfterScenario(Scenario)
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">8127 ms</span>
-<span class="badge badge-danger">Failed</span>
+<span class="badge badge-info">311 ms</span>
+<span class="badge badge-success">Passed</span>
 </span>
 </div>
 </div>
 <div class="row mt-2">
-<div class="col-lg-12 text-danger" style="overflow-wrap:break-word;">
-org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=85.0.4183.102)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'LAPTOP-41R0DTGP', ip: '192.168.18.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 85.0.4183.102, webStorageEnabled: true}
-Session ID: 8f278efedcf38ca368e3841c7b8074e0
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
-	at steps.StepHooks.AfterScenario(StepHooks.java:39)
-
+<div class="col-lg-12">
+<img src="images/fec1d0aa-93ac-4958-b0b6-a781fe183ea3.png" class="img-thumbnail">
 </div>
 </div>
 <hr>
@@ -381,7 +327,7 @@ steps.DottiItemSelectSteps.teardown()
 </div>
 <div class="col-lg-3">
 <span class="float-right">
-<span class="badge badge-info">605 ms</span>
+<span class="badge badge-info">662 ms</span>
 <span class="badge badge-success">Passed</span>
 </span>
 </div>
