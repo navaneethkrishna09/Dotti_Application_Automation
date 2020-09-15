@@ -1,5 +1,4 @@
-Feature: Sign In Functionality Check
-
+Feature: Sign in functionality check
 @DottiInvalidLogin
 Scenario Outline: Log in with invalid credentials
 Given User opens the URL "DottiAustralia"

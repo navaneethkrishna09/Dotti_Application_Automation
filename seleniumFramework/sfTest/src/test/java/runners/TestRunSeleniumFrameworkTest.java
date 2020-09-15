@@ -11,21 +11,15 @@ import courgette.api.CourgetteAfterAll;
 import courgette.api.CourgetteBeforeAll;
 import courgette.api.CourgetteOptions;
 import courgette.api.CourgetteRunLevel;
-import courgette.api.CucumberOptions;
 import courgette.api.junit.Courgette;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 import uipages.DottiItemSelectPage;
 import uipages.DottiSignInPage;
 
 
-@RunWith(Courgette.class)
-@CourgetteOptions(
-        threads = 1,
-        runLevel = CourgetteRunLevel.SCENARIO,
-        rerunFailedScenarios = false,
-        rerunAttempts = 1,
-        showTestOutput = true,
-        reportTargetDir = "build",
-        cucumberOptions = @CucumberOptions(
+@RunWith(Cucumber.class)
+        		@CucumberOptions(
 //               tags = {"@eclipxQots"},
 //                tags = {"@checkHeaderLinks"},
 //        		tags = {"@Unsuccessfullogin or @Successfullogin"},
@@ -38,7 +32,7 @@ import uipages.DottiSignInPage;
                 plugin = {"pretty",
                         "json:build/cucumber-report/cucumber.json",
                         "html:build/cucumber-report/cucumber.html",
-                        "junit:build/cucumber-report/cucumber.xml"}))
+                        "junit:build/cucumber-report/cucumber.xml"})
 
 
 public class TestRunSeleniumFrameworkTest extends BasePage {

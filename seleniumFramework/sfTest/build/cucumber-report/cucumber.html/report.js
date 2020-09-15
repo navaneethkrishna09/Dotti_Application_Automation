@@ -1,6 +1,6 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/feature/DottiSignIn.feature");
 formatter.feature({
-  "name": "Sign In Functionality Check",
+  "name": "Sign in functionality check",
   "description": "",
   "keyword": "Feature"
 });
@@ -128,10 +128,10 @@ formatter.match({
   "location": "steps.DottiSignInSteps.errorMsgCheck() in file:/D:/Projects/Eclipse_demo/seleniumFramework/sfTest/target/classes/"
 });
 formatter.result({
-  "error_message": "applicationcustomexceptions.InvalidLoginException: Invalid Login Attempt\r\n\tat uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:124)\r\n\tat steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:41)\r\n\tat ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)\r\n",
+  "error_message": "applicationcustomexceptions.InvalidLoginException: Invalid Login Attempt\r\n\tat uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:124)\r\n\tat steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:41)\r\n\tat ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:9)\r\n",
   "status": "failed"
 });
-formatter.embedding("image/png", "images/22da9b8950dc494485e411c4380b3a870.png", "Log in with invalid credentials");
+formatter.embedding("image/png", "embedded0.png", "Log in with invalid credentials");
 formatter.after({
   "status": "passed"
 });

@@ -25,6 +25,7 @@
         <version>5.4.0</version>
         <scope>test</scope>
     </dependency>
+    
 
 		<!-- junit dependency -->
 		<!-- <dependency>
@@ -54,15 +55,6 @@
      	<includes>
             <include>**/*Test.*</include>
         </includes>
-        <executions>
-                        <execution>
-                            <id>TestRunSeleniumFrameworkTest.java</id>
-                            <phase>integration-test</phase>
-                            <goals>
-                                <goal>integration-test</goal>
-                            </goals>
-                        </execution>
-                    </executions>
      </configuration>
    </plugin>
     </plugins>

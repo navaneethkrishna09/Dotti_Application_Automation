@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="Test Suite" skipped="0" tests="1" time="18.065">
-
-<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="17.914">
-            
-    <failure message="Invalid Login Attempt" type="applicationcustomexceptions.InvalidLoginException">
-                    
-        <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.622">
+    <testcase classname="Sign in functionality check" name="Log in with invalid credentials" time="16.512">
+        <failure message="Invalid Login Attempt" type="applicationcustomexceptions.InvalidLoginException">
+            <![CDATA[Given User opens the URL "DottiAustralia"...................................passed
 Then User clicks on sign in menu option.....................................passed
 And Verifies the sign in page...............................................passed
 Then User enters invalid "ggg@gmail.com" and "ggggggg"......................passed
@@ -16,11 +13,8 @@ StackTrace:
 applicationcustomexceptions.InvalidLoginException: Invalid Login Attempt
 	at uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:124)
 	at steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:41)
-	at ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)
+	at ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:9)
 ]]>
-                
-    </failure>
-        
-</testcase>
-
+        </failure>
+    </testcase>
 </testsuite>
