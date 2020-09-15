@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="Test Suite" skipped="0" tests="1" time="20.379">
+<testsuite failures="1" name="Test Suite" skipped="0" tests="1" time="18.065">
 
-<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="20.245">
+<testcase classname="Sign In Functionality Check" name="Log in with invalid credentials" time="17.914">
             
     <failure message="Invalid Login Attempt" type="applicationcustomexceptions.InvalidLoginException">
                     

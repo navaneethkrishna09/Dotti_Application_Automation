@@ -131,7 +131,7 @@ formatter.result({
   "error_message": "applicationcustomexceptions.InvalidLoginException: Invalid Login Attempt\r\n\tat uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:124)\r\n\tat steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:41)\r\n\tat ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)\r\n",
   "status": "failed"
 });
-formatter.embedding("image/png", "images/4e62ae23e4fa4a6888f5951d539866ab0.png", "Log in with invalid credentials");
+formatter.embedding("image/png", "images/22da9b8950dc494485e411c4380b3a870.png", "Log in with invalid credentials");
 formatter.after({
   "status": "passed"
 });

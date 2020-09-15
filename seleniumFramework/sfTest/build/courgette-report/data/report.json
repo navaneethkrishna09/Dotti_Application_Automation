@@ -1,10 +1,10 @@
 [ {
   "line" : 1,
   "elements" : [ {
-    "start_timestamp" : "2020-09-14T15:54:36.070Z",
+    "start_timestamp" : "2020-09-15T08:01:32.700Z",
     "before" : [ {
       "result" : {
-        "duration" : 5854241700,
+        "duration" : 5986761000,
         "status" : "passed"
       },
       "match" : {
@@ -22,7 +22,7 @@
         "name" : "Log in with invalid credentials"
       } ],
       "result" : {
-        "duration" : 311995800,
+        "duration" : 390361500,
         "status" : "passed"
       },
       "match" : {
@@ -30,7 +30,7 @@
       }
     }, {
       "result" : {
-        "duration" : 662386600,
+        "duration" : 682572400,
         "status" : "passed"
       },
       "match" : {
@@ -41,7 +41,7 @@
     "keyword" : "Scenario Outline",
     "steps" : [ {
       "result" : {
-        "duration" : 6457656300,
+        "duration" : 4553260500,
         "status" : "passed"
       },
       "line" : 5,
@@ -56,7 +56,7 @@
       "keyword" : "Given "
     }, {
       "result" : {
-        "duration" : 1913931500,
+        "duration" : 1911051000,
         "status" : "passed"
       },
       "line" : 6,
@@ -67,7 +67,7 @@
       "keyword" : "Then "
     }, {
       "result" : {
-        "duration" : 97740500,
+        "duration" : 10967200,
         "status" : "passed"
       },
       "line" : 7,
@@ -78,7 +78,7 @@
       "keyword" : "And "
     }, {
       "result" : {
-        "duration" : 272272100,
+        "duration" : 564172200,
         "status" : "passed"
       },
       "line" : 8,
@@ -96,7 +96,7 @@
       "keyword" : "Then "
     }, {
       "result" : {
-        "duration" : 4571864000,
+        "duration" : 3563924700,
         "status" : "passed"
       },
       "line" : 9,
@@ -108,7 +108,7 @@
     }, {
       "result" : {
         "error_message" : "applicationcustomexceptions.InvalidLoginException: Invalid Login Attempt\r\n\tat uipages.DottiSignInPage.errorMsgCheck(DottiSignInPage.java:124)\r\n\tat steps.DottiSignInSteps.errorMsgCheck(DottiSignInSteps.java:41)\r\n\tat ✽.Check if the error message is displayed(src/main/java/feature/DottiSignIn.feature:10)\r\n",
-        "duration" : 63325300,
+        "duration" : 197564400,
         "status" : "failed"
       },
       "line" : 10,
